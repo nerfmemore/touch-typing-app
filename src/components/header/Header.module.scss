@@ -1,0 +1,46 @@
+section{
+    width: 100%;
+    height: 100px;
+    margin: 0 auto;
+    padding-top: 20px;
+}
+
+.header {
+    background-color: #6DFF43;
+    position: relative;
+}
+
+.container {
+    background-color: #98E831;
+    position: relative;
+    width: 1120px;
+
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid #EEFF36;
+}
+
+.logo {
+    width: 150px;
+    height: 100px;
+    margin: 0 auto;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+}
+
+.point {
+    padding: 10px 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    border: 1px solid #EEFF36;
+}
+
+.login {
+    display: flex;
+    justify-content: space-between;
+}
