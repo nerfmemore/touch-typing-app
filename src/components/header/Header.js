@@ -1,20 +1,20 @@
 import React from "react";
-import styles from './Header.module.scss';
+import s from './Header.module.scss';
 
 export const Header = () => {
-    return <section className={styles.header}>
-        <div className={styles.container}>
-            <div className={styles.logo}>Лого</div>
-            <ul className={styles.menu}>
-                <li className={styles.point}>Тренажер</li>
-                <li className={styles.point}>Тестирование</li>
-                <li className={styles.point}>Обучение</li>
-                <li className={styles.point}>Курсы</li>
+    return <section className={s.header}>
+        <div className={s.container}>
+            <div className={s.logo}>Best Typing App</div>
+            <ul className={s.menu}>
+                <li className={s.point}>ТРЕНАЖЕР</li>
+                <li className={s.point}>ТЕСТИРОВАНИЕ</li>
+                <li className={s.point}>ОБУЧЕНИЕ</li>
+                <li className={s.point}>КУРСЫ</li>
             </ul>
-            <ul className={styles.login}>
-                <li className="signin">Вход</li>
-                <span className="or">или</span>
-                <li className="signin">Регистрация</li>
+            <ul className={s.menu}>
+                <li className={s.sign}>Вход</li>
+                <span className={s.sign}>или</span>
+                <li className={s.sign}>Регистрация</li>
             </ul>
         </div>
     </section>

@@ -1,46 +1,49 @@
-section{
+.header {
     width: 100%;
     height: 100px;
     margin: 0 auto;
     padding-top: 20px;
-}
-
-.header {
-    background-color: #6DFF43;
+    background-color: #55c5ff;
+    color: #fff;
     position: relative;
+    font-weight: 700;
 }
 
 .container {
-    background-color: #98E831;
+    background-color: #2ea3f8;
+    border-top: 1px solid #73ccfb;
     position: relative;
     width: 1120px;
-
+    min-height: 70px;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
-    border-top: 1px solid #EEFF36;
+    border-radius: 5px;
 }
 
 .logo {
-    width: 150px;
-    height: 100px;
-    margin: 0 auto;
+    display: flex;
+    height: auto;
+    padding: 31px;
+    text-align: center;
 }
 
 .menu {
     display: flex;
     justify-content: space-between;
-    list-style-type: none;
+    list-style: none;
 }
 
 .point {
-    padding: 10px 10px;
-    margin-left: 20px;
-    margin-right: 20px;
-    border: 1px solid #EEFF36;
+    display: block;
+    height: 20px;
+    padding: 20px;
+    font-size: 15px;
 }
 
-.login {
-    display: flex;
-    justify-content: space-between;
+.sign {
+    display: block;
+    height: 20px;
+    padding: 20px;
+    font-size: 15px;
 }
