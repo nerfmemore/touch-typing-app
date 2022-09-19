@@ -24,7 +24,6 @@ export function TypingField(props){
 
     useEffect(() => {
         function typing(event){
-                console.log(event);
                 if (finalStatus != true){
                 setKeydown(allKeydowns + 1);
                 setLastInput(event.key);
@@ -92,8 +91,6 @@ function Accuracy(props){
     
 }
 
-//                <Accuracy successfullKeydowns = {successfullKeydowns} allKeydowns = {allKeydowns}/>
-
 function TypingSpeed(props){
     const successes = props.successfullKeydowns;
     const mountingDate = props.mountedDate;
@@ -107,13 +104,9 @@ function TypingSpeed(props){
     )
 }
 
-//                 <TypingSpeed successfullKeydowns = {successfullKeydowns} mountedDate = {mountedDate}/>
-
 function Restart(props){
     return <button className="restart" onClick = {() => props.setReady(false)}>Заново</button>
 }
-
-// <Restart setReady = {props.setReady}/>
 
 function Results(props){
     return (
@@ -130,4 +123,3 @@ function Results(props){
         </section>
     )
 }
-//         successfullKeydowns === parsedText.length && successfullKeydowns != 0 ? setFinalStatus(true) : setFinalStatus(false);
